@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/playerNamesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player 1 vs Player 2"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_restart"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
+
+
+

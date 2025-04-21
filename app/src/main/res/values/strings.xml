@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <!-- MainActivity strings -->
+    <string name="main_title">Tic-Tac-Toe</string>
+    <string name="main_subtitle">Izvēlieties spēles režīmu</string>
+    <string name="btn_player_vs_player">Spēlētājs pret Spēlētāju</string>
+    <string name="btn_player_vs_computer">Spēlētājs pret Datoru</string>
+
+    <!-- PlayerNamesActivity strings -->
+    <string name="player_names_title">Ievadiet spēlētāju vārdus</string>
+    <string name="player1_label">Pirmā spēlētāja vārds:</string>
+    <string name="player2_label">Otrā spēlētāja vārds:</string>
+    <string name="hint_enter_name">Ievadiet vārdu</string>
+    <string name="btn_start_game">Sākt spēli</string>
+    <string name="computer_name">Dators</string>
+
+    <!-- GameActivity strings -->
+    <string name="btn_restart">Sākt no jauna</string>
+    <string name="game_draw">Neizšķirts!</string>
+    <string name="game_winner">%1$s uzvarēja!</string>
+    <string name="game_current_turn">%1$s gājiens (%2$s)</string>
+</resources>
